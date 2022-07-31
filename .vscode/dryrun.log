@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/cardinalys/Documents/projects/service'
+brew update
+brew list kind || brew install kind
+brew list kubectl || brew install kubectl
+brew list kustomize || brew install kustomize
+make: Leaving directory `/Users/cardinalys/Documents/projects/service'
+ 
